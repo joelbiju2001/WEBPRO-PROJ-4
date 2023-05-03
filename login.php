@@ -16,6 +16,7 @@
     </form>
 	<br>
 	<a href="signup.php"> New User? </a>
+	<br>
 	<a href="home.html">HOME</a>
 
 	
