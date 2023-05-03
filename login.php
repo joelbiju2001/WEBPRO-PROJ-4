@@ -35,6 +35,7 @@ if (isset($_POST['login']))
 	
 	if(mysqli_fetch_array($query_run)>0)
 	{
+		header("Location: homepage.php");
 		echo '<script type="text/javascript"> alert("Logged In Succerssfully") </script>' ;
 	}
 	else {
